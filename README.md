@@ -19,7 +19,7 @@ The data used in this project is stored in the file `heart-disease.csv`. This da
 
 To run the notebook, install the following dependencies:
 
-```bash
+'''bash
 pip install pandas matplotlib scikit-learn
 
 
@@ -27,8 +27,7 @@ pip install pandas matplotlib scikit-learn
 Clone this repository.
 Place the heart-disease.csv file in the same directory as the notebook.
 Run the Jupyter Notebook to execute the code cells step-by-step.
-
-## Results
+Results
 The project provides insights into factors associated with heart disease and evaluates a model to predict heart disease presence. Results include visualizations and metrics that showcase the model's performance.
 
 ## License
