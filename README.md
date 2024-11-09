@@ -1,73 +1,23 @@
-# Heart Disease Detector
-
-This project demonstrates the development of a machine learning classification model to predict the presence of heart disease based on a patient's health metrics and heart measurements.
+# Heart Disease Classification Project
 
 ## Project Overview
 
-Heart disease is a leading cause of death worldwide, and early detection is crucial for effective treatment. This project leverages machine learning techniques to build a predictive model for heart disease detection. Using health parameters and specific heart measurements, the model classifies whether a patient is likely to have heart disease, assisting healthcare providers in early diagnosis.
+This project is aimed at classifying whether or not a patient has heart disease based on certain health metrics. Using data science techniques, this analysis examines patient data and explores features correlated with heart disease, ultimately building a classification model to predict heart disease presence.
 
-## Table of Contents
+## Dataset
 
-- [Project Overview](#project-overview)
-- [Data](#data)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Model](#model)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+The data used in this project is stored in the file `heart-disease.csv`. This dataset contains several patient records with features potentially relevant to the presence of heart disease.
 
-## Data
+## Project Structure
 
-The model is trained using a dataset containing various patient health parameters, including:
-
-- Age
-- Gender
-- Blood pressure
-- Cholesterol levels
-- Fasting blood sugar
-- Electrocardiographic results
-- Heart rate
-- Exercise-induced angina
-- ST depression
+- **Data Loading**: The dataset is imported and initially explored to understand its structure and features.
+- **Data Preprocessing**: The dataset undergoes cleaning and transformation to prepare it for model training.
+- **Model Training**: Multiple machine learning models are evaluated to classify patients with and without heart disease.
+- **Evaluation**: The model performance is assessed using various metrics to ensure accuracy and reliability.
 
 ## Requirements
 
-- Python 3.8 or above
-- Jupyter Notebook
-- Machine learning libraries (e.g., scikit-learn, pandas, numpy)
-- Visualization libraries (e.g., matplotlib, seaborn)
+To run the notebook, install the following dependencies:
 
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/Heart-Disease-Detector.git
-   cd Heart-Disease-Detector
-
-## Install dependencies:
-
-pip install -r requirements.txt
-
-## Usage
-Data Exploration: Use Jupyter notebooks in the notebooks/ directory to explore and visualize the dataset.
-
-Model Training: Run main.py to preprocess data and train the machine learning model.
-
-Prediction: Use the trained model to predict the likelihood of heart disease in new patient data. To test, provide input data in a similar format to the training dataset.
-
-## Model
-The classification model utilizes supervised machine learning algorithms, such as logistic regression or random forest, to achieve optimal prediction results. Model selection and hyperparameter tuning are performed to ensure accuracy.
-
-## Results
-The final model achieves a predictive accuracy of [XX%] on the testing dataset, highlighting the model's potential for real-world applications in healthcare diagnostics.
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any suggestions or improvements.
-
-## License
-This project is licensed under the MIT License.
-
-Replace placeholders like `[XX%]` and `yourusername` with specifics from your project. This format is ready for easy insertion into a README file on GitHub.
+```bash
+pip install pandas matplotlib scikit-learn
