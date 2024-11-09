@@ -50,7 +50,7 @@ Heart-Disease-Detector/ ├── data/ # Contains training and testing datasets
 ## Installation
 
 1. **Clone the repository**:
-   ```bash
+  
    git clone https://github.com/yourusername/Heart-Disease-Detector.git
    cd Heart-Disease-Detector
 
@@ -59,8 +59,8 @@ pip install -r requirements.txt
 
 Here’s the entire README in a single code block for easy copy-pasting:
 
-markdown
-Copy code
+
+
 # Heart Disease Detector
 
 This project demonstrates the development of a machine learning classification model to predict the presence of heart disease based on a patient's health metrics and heart measurements.
@@ -120,7 +120,7 @@ Copy code
    cd Heart-Disease-Detector
 
 ## Install dependencies:
-```bash
+
 pip install -r requirements.txt
 
 ## Usage
