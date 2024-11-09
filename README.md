@@ -33,19 +33,6 @@ The model is trained using a dataset containing various patient health parameter
 - Exercise-induced angina
 - ST depression
 
-The dataset should be in CSV format and organized to match these parameters for successful model training.
-
-## Project Structure
-
-- Heart-Disease-Detector
-- Contains training and testing datasets 
-- notebooks
-- Jupyter notebooks for data exploration and model training
-- Python scripts for data processing and model building 
-- Saved machine learning models
-- List of required Python packages
-
-
 ## Requirements
 
 - Python 3.8 or above
