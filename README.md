@@ -21,3 +21,15 @@ To run the notebook, install the following dependencies:
 
 ```bash
 pip install pandas matplotlib scikit-learn
+
+
+## How to Use
+Clone this repository.
+Place the heart-disease.csv file in the same directory as the notebook.
+Run the Jupyter Notebook to execute the code cells step-by-step.
+
+## Results
+The project provides insights into factors associated with heart disease and evaluates a model to predict heart disease presence. Results include visualizations and metrics that showcase the model's performance.
+
+## License
+This project is licensed under the MIT License. See LICENSE for more information.
