@@ -19,7 +19,6 @@ The data used in this project is stored in the file `heart-disease.csv`. This da
 
 To run the notebook, install the following dependencies:
 
-'''bash
 pip install pandas matplotlib scikit-learn
 
 
