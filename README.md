@@ -37,10 +37,14 @@ The dataset should be in CSV format and organized to match these parameters for 
 
 ## Project Structure
 
-Heart-Disease-Detector/ ├── data/ # Contains training and testing datasets ├── notebooks/ # Jupyter notebooks for data exploration and model training ├── src/ # Python scripts for data processing and model building ├── models/ # Saved machine learning models ├── requirements.txt # List of required Python packages ├── README.md # Project README file └── main.py # Main script to run the model prediction
+- Heart-Disease-Detector
+- Contains training and testing datasets 
+- notebooks
+- Jupyter notebooks for data exploration and model training
+- Python scripts for data processing and model building 
+- Saved machine learning models
+- List of required Python packages
 
-markdown
-Copy code
 
 ## Requirements
 
